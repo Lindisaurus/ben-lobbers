@@ -20,6 +20,7 @@ GEM
       multi_json (~> 1.8)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
+    kgio (2.7.4)
     launchy (2.4.3)
       addressable (~> 2.3)
     mime-types (2.4.3)
@@ -27,6 +28,8 @@ GEM
     nanoc (3.7.5)
       cri (~> 2.3)
     netrc (0.10.3)
+    rack (1.6.0)
+    raindrops (0.8.0)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
@@ -35,6 +38,10 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.1)
+    unicorn (4.3.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
@@ -42,3 +49,4 @@ PLATFORMS
 DEPENDENCIES
   heroku
   nanoc
+  unicorn
