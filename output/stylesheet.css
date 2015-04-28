@@ -36,7 +36,8 @@ nav ul li {
   margin-right: 2em;
 }
 #contents {
-  width: 90%;
+  width: 60%;
+  float: left;
 }
 #main {
   display: block;
