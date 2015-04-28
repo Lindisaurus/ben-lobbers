@@ -66,3 +66,32 @@ p {
   width: 2.7em;
   margin-right: 1em;
 }
+
+@media only screen
+  and (min-width: 320px)
+  and (max-width: 480px) {
+    .ben_cutout {
+      display: none;
+    }
+    #ben {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    nav ul {
+      text-align: center;
+    }
+    nav ul li:last-child {
+      margin-right: 0;
+    }
+    .social_icons {
+      text-align: center;
+    }
+    #contents {
+      width: 100%;
+    }
+    .logo {
+      margin: 0 auto;
+    }
+
+}
