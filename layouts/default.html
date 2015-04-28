@@ -2,13 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>A Brand New nanoc Site - <%= @item[:title] %></title>
+    <title><%= @item[:title] %></title>
     <link rel="stylesheet" href="<%= @items['/stylesheet/'].path %>">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
   </head>
   <body>
+    <div id="ben">
+      <img src="/images/logo.svg" alt="Ben Lobban Logo" class="logo"/>
+      <br/>
+      <img src="/images/ben.png" class="ben_cutout" alt="Ben Lobban" />
+    </div>
+    <div id="contents">
+    <h1>Ben Lobban</h1>
     <nav>
       <ul>
         <li><a href="/bio.html">Biography</a></li>
@@ -19,5 +26,11 @@
     <div id="main">
       <%= yield %>
     </div>
+    <div class="social_icons">
+      <img src="/images/twitter.svg"/>
+      <img src="/images/linkedin.svg"/>
+      <img src="/images/youtube.svg"/>
+    </div>
+  </div>
   </body>
 </html>
