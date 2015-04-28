@@ -40,6 +40,7 @@ GEM
     hitimes (1.2.2)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
+    kgio (2.9.3)
     launchy (2.4.3)
       addressable (~> 2.3)
     listen (2.10.0)
@@ -62,6 +63,7 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     rack (1.5.2)
+    raindrops (0.13.0)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -78,6 +80,10 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.1)
+    unicorn (4.9.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
@@ -87,3 +93,4 @@ DEPENDENCIES
   guard-nanoc
   heroku
   nanoc
+  unicorn

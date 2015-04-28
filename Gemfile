@@ -5,3 +5,4 @@ gem "guard-nanoc"
 gem "adsf"
 
 gem "heroku"
+gem "unicorn"
