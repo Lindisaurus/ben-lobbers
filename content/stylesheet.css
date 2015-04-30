@@ -9,6 +9,7 @@ body {
   background: #EDEAE7;
   color: #123d4d;
   margin-top: 1em;
+  max-width: 1200px;
 }
 a {
   text-decoration: none;
