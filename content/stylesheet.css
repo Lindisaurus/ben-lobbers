@@ -63,6 +63,9 @@ p {
   margin: 0 auto;
   display: block;
 }
+.social_icons {
+  margin-top: 1em;
+}
 .social_icons img {
   width: 2.7em;
   margin-right: 1em;
