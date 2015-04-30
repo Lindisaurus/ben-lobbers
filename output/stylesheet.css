@@ -63,6 +63,9 @@ p {
   margin: 0 auto;
   display: block;
 }
+.social_icons {
+  margin-top: 1em;
+}
 .social_icons img {
   width: 2.7em;
   margin-right: 1em;
@@ -76,7 +79,8 @@ p {
     }
     #ben {
       float: none;
-      width: 100%;
+      width: 80%;
+      margin: 0 auto;
       text-align: center;
     }
     nav ul {
@@ -96,5 +100,7 @@ p {
     .logo {
       margin: 0 auto;
     }
-
+    #main {
+      margin-top: 1em;
+    }
 }
